@@ -83,3 +83,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
+Press `Enter` to execute a line in the python shell.
+
