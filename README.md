@@ -85,3 +85,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Press `Enter` to execute a line in the python shell.
 
+## IDE Recommendation
+
+Students can download a one year free license for [PyCharm](https://www.jetbrains.com/pycharm/download/) with USC email id. I use `PyCharm` myself in my projects.
+You do not have to use `PyCharm`, any text editor would work.
+
