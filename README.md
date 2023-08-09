@@ -46,3 +46,35 @@ Output should be similar to this ,
 Python 3.10.12
 ```
 
+### Start Python Shell
+Typing the following command in the terminal starts the interactive python shell
+```
+python
+```
+
+The output of the above command should be similar to this ,
+
+```
+(lab-1-env) D22ML-AMANDEEP:~ amandeep$ python
+Python 3.10.12 (main, Jul  5 2023, 15:02:25) [Clang 14.0.6 ] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+Now we are ready to write some code
+```
+(lab-1-env) D22ML-AMANDEEP:~ amandeep$ python
+Python 3.10.12 (main, Jul  5 2023, 15:02:25) [Clang 14.0.6 ] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 1
+>>> y = x + 5
+>>> x
+1
+>>> y
+6
+>>> y += 10
+>>> y
+16
+>>>
+```
+
