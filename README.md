@@ -6,7 +6,7 @@ This document explains the things required to get started with programming in py
 
 ## Create a Github account
 
-All students should have a github account, use [this](https://github.com/signup) link to sign up for a new account in case you already do not have one.
+All students should have a github account, use [this](https://github.com/signup) link to sign up for a new account in case you do not have one.
 
 ## Conda: Installation and Virtual Environment setup
 
