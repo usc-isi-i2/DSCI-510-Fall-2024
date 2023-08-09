@@ -1,9 +1,14 @@
-# DSCI-510-Fall-2023
+# DSCI-510-Fall-2023 - Getting Started
 
-## Getting Started
-This section lists the things required to get started with programming in python.
 
-### Install Conda
+This document explains the things required to get started with programming in python.
+
+
+## Create a Github account
+
+All students should have a github account, use [this](https://github.com/signup) link to sign up for a new account in case you already do not have one.
+
+## Conda: Installation and Virtual Environment setup
 
 [For Windows](https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html)
 
