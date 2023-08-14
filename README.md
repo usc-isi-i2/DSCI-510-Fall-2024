@@ -90,3 +90,47 @@ Press `Enter` to execute a line in the python shell.
 Students can download a one year free license for [PyCharm](https://www.jetbrains.com/community/education/#students) with USC email id. I use `PyCharm` myself in my projects.
 You do not have to use `PyCharm`, any text editor would work.
 
+## Installing Jupyter Lab
+
+Jupyter lab provides a web based interactive development environment. Install jupyter lab by running this command, in the terminal ,
+
+```
+pip install jupyterlab
+```
+
+You will have to register your conda environment with Jupyter before it can be used in the jupyter notebooks. If the conda environment
+is called `lab-1-env`,  run the following command to register this conda environment with Jupter ,
+
+```
+python -m ipykernel install --name lab-1-env --display-name lab-1-env
+```
+
+Finally, run jupyter lab by typing the following command ,
+
+```
+jupyter lab
+```
+
+You should see output similar to this ,
+
+```
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2023-08-14 16:53:33.035 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-08-14 16:53:33.035 ServerApp] Serving notebooks from local directory: /Users/amandeep/Downloads/DSCI 510 - Fall 2022/lectures/week 1
+[I 2023-08-14 16:53:33.036 ServerApp] Jupyter Server 2.1.0 is running at:
+[I 2023-08-14 16:53:33.036 ServerApp] http://localhost:8888/lab?token=ddb241eb40394243ea17d0bb252d89d3d973bc198c2780b5
+[I 2023-08-14 16:53:33.036 ServerApp]  or http://127.0.0.1:8888/lab?token=ddb241eb40394243ea17d0bb252d89d3d973bc198c2780b5
+[I 2023-08-14 16:53:33.036 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-08-14 16:53:33.038 ServerApp]
+
+    To access the server, open this file in a browser:
+        file:///Users/amandeep/Library/Jupyter/runtime/jpserver-48598-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=ddb241eb40394243ea17d0bb252d89d3d973bc198c2780b5
+     or http://127.0.0.1:8888/lab?token=ddb241eb40394243ea17d0bb252d89d3d973bc198c2780b5
+[I 2023-08-14 16:53:36.114 LabApp] Build is up to date
+```
+
