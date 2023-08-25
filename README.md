@@ -28,7 +28,7 @@ Creates a conda virtual environment called `lab-1-env` and the major python vers
 
 ### Activate the conda environment
 ```
-conda activate lab1-1-env
+conda activate lab-1-env
 ```
 
 You should see something similar to this ,
