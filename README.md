@@ -1,4 +1,4 @@
-# DSCI-510-Fall-2023 - Getting Started
+# DSCI-510-Fall-2024 - Getting Started
 
 
 This document explains the things required to get started with programming in python.
@@ -22,22 +22,22 @@ NOTE: **The following commands are run in a terminal.**
 Students should create a virtual environment for each assignment, and project in general. This is a good python programming practice. For example, to create a virtual environment for lab assignemnt 1,
 
 ```
-conda create -n lab-1-env python=3.10 -y
+conda create -n dsci-510 python=3.10 -y
 ```
-Creates a conda virtual environment called `lab-1-env` and the major python version is `3.10`
+Creates a conda virtual environment called `dsci-510` and the major python version is `3.10`
 
 ### Activate the conda environment
 ```
-conda activate lab-1-env
+conda activate dsci-510
 ```
 
 You should see something similar to this ,
 ```
-D22ML-AMANDEEP:~ amandeep$ conda activate lab-1-env
-(lab-1-env) D22ML-AMANDEEP:~ amandeep$
+D22ML-AMANDEEP:~ amandeep$ conda activate dsci-510
+(dsci-510) D22ML-AMANDEEP:~ amandeep$
 ```
 
-The (lab-1-env) means that the conda environment: `lab-1-env` is active.
+The (dsci-510) means that the conda environment: `dsci-510` is active.
 
 ### Check python version
 ```
@@ -47,7 +47,7 @@ python --version
 Output should be similar to this ,
 
 ```
-(lab-1-env) D22ML-AMANDEEP:~ amandeep$ python --version
+(dsci-510) D22ML-AMANDEEP:~ amandeep$ python --version
 Python 3.10.12
 ```
 
@@ -60,7 +60,7 @@ python
 The output of the above command should be similar to this ,
 
 ```
-(lab-1-env) D22ML-AMANDEEP:~ amandeep$ python
+(dsci-510) D22ML-AMANDEEP:~ amandeep$ python
 Python 3.10.12 (main, Jul  5 2023, 15:02:25) [Clang 14.0.6 ] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
@@ -68,7 +68,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Now we are ready to write some code
 ```
-(lab-1-env) D22ML-AMANDEEP:~ amandeep$ python
+(dsci-510) D22ML-AMANDEEP:~ amandeep$ python
 Python 3.10.12 (main, Jul  5 2023, 15:02:25) [Clang 14.0.6 ] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> x = 1
@@ -99,10 +99,10 @@ pip install jupyterlab
 ```
 
 You will have to register your conda environment with Jupyter before it can be used in the jupyter notebooks. If the conda environment
-is called `lab-1-env`,  run the following command to register this conda environment with Jupter ,
+is called `dsci-510`,  run the following command to register this conda environment with Jupter ,
 
 ```
-python -m ipykernel install --name lab-1-env --display-name lab-1-env
+python -m ipykernel install --name dsci-510 --display-name dsci-510
 ```
 
 Finally, run jupyter lab by typing the following command ,
